@@ -13,7 +13,7 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
-$email    = $_POST['email']; 
+$email    = $_POST['email'];
 $comments = $_POST['comments'];
 $verify   = $_POST['verify'];
 
@@ -42,7 +42,7 @@ if(get_magic_quotes_gpc()) {
 // Enter the email address that you want to emails to be sent to.
 
 //$address = "example@example.com";
-$address = "vossendesign@gmail.com";
+$address = "john@johnrice.ca";
 
 
 // Configuration option.
@@ -63,7 +63,7 @@ $e_reply = "You can contact $name via email, $email";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
- 
+
 $headers .= "Reply-To: $email" . PHP_EOL;
 $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
