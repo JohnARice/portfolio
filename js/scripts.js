@@ -167,7 +167,7 @@
     $("#clients-slider-2").owlCarousel({
         autoplay : true,
         autoplayTimeout: 4000,
-        loop: false,
+        loop: true,
         dots: false,
         nav: false,
         responsiveRefreshRate: 200,

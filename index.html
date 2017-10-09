@@ -27,6 +27,14 @@
   <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet' type='text/css'>
   <link href="css/custom.css" rel="stylesheet" type="text/css">
   <link href="css/colors/blue.css" id="color-scheme" rel="stylesheet" type="text/css">
+  <!-- Email script -->
+<script type="text/javascript">
+    function makeLink(user, domain_begin, domain_end) {
+        document.write('<a href="mailto:'+user+'@'+domain_begin+'.'+domain_end+'">john.a.rice@me.com</a>');
+     };
+</script>
+
+
 </head>
 
 <body>
@@ -122,7 +130,7 @@
             <div id="myTabContent" class="tab-content">
 
               <div class="tab-pane fade active in" id="tab-i1">
-                <p>I'm a data-driven digital marketing with over 10 years experience in creating marketing campaigns that deliver leads and significantly increase a company’s bottom line. With a proven track record in both B2B and B2C digital marketing, I research, align and optimize your company’s digital marketing strategy and tactics to your company’s business and marketing goals. I am a graduate of Sheridan College’s <a href="https://academics.sheridancollege.ca/programs/marketing-management" target="_blank" style="text-decoration: underline;">Marketing Management program</a> and, in 2017, I will graduate from the University of Toronto’s <a href="http://learn.utoronto.ca/courses-programs/business-professionals/certificates/digital-marketing-management" target="_blank" style="text-decoration: underline;">Digital Marketing Management program</a>. </p>
+                <p>I'm a data-driven digital marketer with over 10 years experience in creating marketing campaigns that deliver leads and significantly increase a company’s bottom line. With a proven track record in both B2B and B2C digital marketing, I research, align and optimize your company’s digital marketing strategy and tactics to your company’s business and marketing goals. I am a graduate of Sheridan College’s <a href="https://academics.sheridancollege.ca/programs/marketing-management" target="_blank" style="text-decoration: underline;">Marketing Management program</a> and, in 2017, I will graduate from the University of Toronto’s <a href="http://learn.utoronto.ca/courses-programs/business-professionals/certificates/digital-marketing-management" target="_blank" style="text-decoration: underline;">Digital Marketing Management program</a>. </p>
               </div>
               <div class="tab-pane fade" id="tab-i2">
                 <p>I translate your company's business requirements and user needs into websites and landing pages that convert and drive business. Focused on front-end development, I’m proficient in HTML, CSS, jQuery, JavaScript, Bootstrap and Foundation. The content management systems I’ve used include both SharePoint and WordPress. I am also graduate of Humber College’s  <a href="https://mediastudies.humber.ca/programs/by-type/certificate/web-design-and-development.html?" target="_blank" style="text-decoration: underline;">Web Design, Development and Maintenance certificate</a>.</p>
@@ -664,7 +672,9 @@
               Greater Toronto, Ontario
               <br> 905.599.3194
               <br>
-              <a href="#">john.a.rice@me.com</a>
+              <script type="text/javascript">
+                      makeLink('john.a.rice','me','com');
+              </script>
             </p>
           </div>
           <div class="sidebar-share">
@@ -764,6 +774,8 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/scripts.js"></script>
+
+
 
 </body>
 
