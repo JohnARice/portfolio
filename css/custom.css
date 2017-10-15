@@ -157,3 +157,30 @@ ul.breadcrumb {
     font-size: 14px;
     margin-bottom: 60px;
 }
+
+
+
+
+.customVideo{
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -9;
+  overflow: hidden;
+
+}
+
+/*
+#vossen-youtube {
+    position: absolute;
+    background-color: #0f1112;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -9;
+    overflow: hidden;
+}
+*/

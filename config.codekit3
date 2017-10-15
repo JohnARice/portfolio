@@ -1977,6 +1977,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/backgrounds\/bg-7.jpg": {
+		"ft": 16384,
+		"iS": 734167,
+		"oA": 0,
+		"oAP": "\/img\/backgrounds\/bg-7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/backgrounds\/bg-app-1.jpg": {
 		"ft": 16384,
 		"iS": 58892,
@@ -3662,6 +3672,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/plugins-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scripts-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
