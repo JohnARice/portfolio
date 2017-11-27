@@ -1159,6 +1159,12 @@
 		"oAP": "\/baking-bouchon.html",
 		"oF": 0
 		},
+	"\/blog-new-version.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog-new-version.html",
+		"oF": 0
+		},
 	"\/blog-post-audio.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -3276,6 +3282,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/portfolio\/ux-sitemap-770.png": {
+		"ft": 32768,
+		"iS": 50311,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/ux-sitemap-770.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/ux-sitemap.png": {
+		"ft": 32768,
+		"iS": 39412,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/ux-sitemap.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/portfolio\/ux-wireframe.png": {
+		"ft": 32768,
+		"iS": 241255,
+		"oA": 0,
+		"oAP": "\/img\/portfolio\/ux-wireframe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/portfolio\/wholesaler-wireframes800X944.png": {
 		"ft": 32768,
 		"iS": 301412,
@@ -3792,6 +3831,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/travel-landing-page.html",
+		"oF": 0
+		},
+	"\/ux-project.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ux-project.html",
 		"oF": 0
 		}
 	},
